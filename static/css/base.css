@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*reset begin*/
+*{padding:0;margin:0;}
+body{font-family:'Microsoft YaHei','宋体','sans-serif'; width:100%;}
+img{border:none;vertical-align:top; max-width:100%;display:block;}
+textarea{resize:none;overflow:auto; font-family:'Microsoft YaHei','宋体','sans-serif';}
+em,i,b{font-style:normal;}
+li{list-style:none;}
+input{ border:none 0; outline:none; background:none; font-family:'Microsoft YaHei','宋体','sans-serif';}
+table{border-collapse:collapse;text-align:center; vertical-align:middle;}
+.clearFix{zoom:1;}
+.clearFix:after{display:block;content:"";clear:both;}
+:focus{outline:0; -moz-outline-style:none;}
+a{text-decoration:none; star:expression(this.onFocus=this.blur());
+-webkit-tap-highlight-color:transparent;
+-webkit-touch-callout:none;
+-webkit-user-select:none;}
+/*reset end*/
+html{font-size:75upx; width:100%;}
+/*header,section,li{box-sizing:border-box;}*/
+
+

@@ -1,0 +1,13 @@
+.z_wgC .z_jd{margin-left: 0px; }
+/* 网关详情 */
+.z_tjd .z_tj02.v_edit.active input{border-bottom:2upx solid #ccc;}
+.z_he{padding-top:0;z-index: 9; background-size: 100% 100%;background:url(./static/images/bgImages/xl2.png) no-repeat;left:0;right:auto;top:0upx;}
+.z_he li{border:0 none;}
+.z_he li:first-child {margin-top: 30upx;} 
+.z_he li{width:200upx; height:85upx; color:#535353; line-height:85upx; margin:0 auto; font-size:28upx; border-bottom:1upx solid #f4f4f4; padding:0 40upx;}
+.z_he li img{width:30upx; height:30upx; float:left; margin:30upx 30upx 0 0;}
+/* 扫码 */
+.barcode{width:300px;height:300px;}
+
+
+
