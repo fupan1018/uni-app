@@ -15,7 +15,7 @@ Uni-app跨平台项目实战
 
 三、项目结构
 ----------------
-<img src="https://github.com/fupan1018/movie-app/blob/master/example/b.png"/>
+<img src="https://github.com/fupan1018/uni-app/blob/master/example/b.png"/>
 	
 四、视图展示
 ----------------
