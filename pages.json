@@ -1,0 +1,234 @@
+{
+	"pages": [
+		
+		{
+			"path": "pages/monitor/monitor",
+			"style": {
+				"navigationBarTitleText": "设备",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue565",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#fff",
+							"float":"left"
+						},{
+							"text": "\ue468",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#fff",
+							"float":"right"
+						},{
+							"text": "\ue466",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#fff",
+							"float":"right"
+						}]
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style":{
+				"navigationBarTitleText": "登陆",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+			}
+		},
+		{
+			"path": "pages/device/device",
+			"style": {
+				"navigationBarTitleText": "设备",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/gatewayDetail/gatewayDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/addNode/addNode",
+			"style": {"navigationBarTitleText": "添加设备"}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "导航栏带搜索框",
+				"app-plus": {
+					"titleNView": {
+						// "type": "transparent",
+						// "titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							"text": "搜索",
+							"width": "40px",
+							"fontSize": "14px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)" 
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "",
+							"disabled": false
+						}
+					}
+				}
+				}
+		},
+		{
+			"path": "pages/addGWDetail/addGWDetail",
+			"style": {"navigationBarTitleText": "添加网关"}
+		},
+		{
+			"path": "pages/RichScanGW/RichScanGW",
+			"style": {"navigationBarTitleText": "扫一扫"}
+		},
+		{
+			"path": "pages/gateway/gateway",
+			"style": {
+				"navigationBarTitleText": "网关",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue468",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#fff",
+							"float":"left"
+						},{
+							"text": "\ue466",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#fff",
+							"float":"right"
+						}]
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/alarm/alarm",
+			"style": {
+				"navigationBarTitleText": "报警",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue466",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "28px",
+							"color": "#fff",
+							"float":"right"
+						}]
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/deviceDetail/deviceDetail",
+			"style": {
+				"navigationBarTitleText": "设备详情"
+			}
+		},
+		{
+			"path": "pages/alarmRecord/alarmRecord",
+			"style": {
+				"navigationBarTitleText": "报警记录"
+			}
+		},
+		{
+			"path": "pages/workOrder/workOrder",
+			"style": {
+				"navigationBarTitleText": "工单",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue466",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "28px",
+							"color": "#fff",
+							"float":"right"
+						}]
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/sendOrder/sendOrder",
+			"style": {"navigationBarTitleText": "指派工单"}
+		},
+		{
+			"path": "pages/alarmMaintain/alarmMaintain",
+			"style": {"navigationBarTitleText": "报警维护"}
+		},
+		{
+			"path": "pages/ucenter/ucenter",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/changePassword/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF",  
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/monitor/monitor", 
+			"iconPath": "static/images/products/nav01.png",
+			"selectedIconPath": "static/images/products/nav01-1.png",
+			"text": "设备"
+		}, {
+			"pagePath": "pages/gateway/gateway",
+			"iconPath": "static/images/products/nav02.png",
+			"selectedIconPath": "static/images/products/nav02-2.png",
+			"text": "网关"
+		}, {
+			"pagePath": "pages/alarm/alarm",
+			"iconPath": "static/images/products/nav03.png",
+			"selectedIconPath": "static/images/products/nav03-3.png",
+			"text": "报警"
+		}, {
+			"pagePath": "pages/workOrder/workOrder",
+			"iconPath": "static/images/products/nav04.png",
+			"selectedIconPath": "static/images/products/nav04-4.png",
+			"text": "工单"
+		},{
+			"pagePath": "pages/ucenter/ucenter",
+			"iconPath": "static/images/products/nav05.png",
+			"selectedIconPath": "static/images/products/nav05-5.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "新闻资讯",
+		"navigationBarBackgroundColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF"
+	}
+}
